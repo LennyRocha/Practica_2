@@ -44,7 +44,7 @@ public class GameManager : MonoBehaviour
             "PUNTOS: " + puntuacion;
 
         textoVidas.text =
-            "VIDAS: " + vidas;
+            "VIDAS: " + new string('♥', vidas);
     }
 
     public void GameOver()
